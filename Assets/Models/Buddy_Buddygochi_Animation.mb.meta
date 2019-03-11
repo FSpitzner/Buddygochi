@@ -1,69 +1,9 @@
 fileFormatVersion: 2
-guid: 8afeee90e54979346bcd4bd278207765
+guid: 6cf57121f1214794386280e063dbe670
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Antenne
-    100002: Antenne1
-    100004: Antenne1_CTRL
-    100006: Antenne2
-    100008: Antenne2_CTRL
-    100010: Antenne3
-    100012: Antenne3_CTRL
-    100014: Antenne4
-    100016: Antenne_Man_CTRL
-    100018: Buddy_Antenne
-    100020: //RootNode
-    100022: Buddy_Core
-    100024: Buddy_Eyelid_lower
-    100026: Buddy_Eyelid_upper
-    100028: Buddy_Shell
-    100030: Core
-    100032: Core_CTRL
-    100034: Eyelid_lower
-    100036: Eyelid_lower_CTRL
-    100038: Eyelid_upper
-    100040: Eyelid_upper_CTRL
-    100042: Main
-    100044: Main_CTRL
-    400000: Antenne
-    400002: Antenne1
-    400004: Antenne1_CTRL
-    400006: Antenne2
-    400008: Antenne2_CTRL
-    400010: Antenne3
-    400012: Antenne3_CTRL
-    400014: Antenne4
-    400016: Antenne_Man_CTRL
-    400018: Buddy_Antenne
-    400020: //RootNode
-    400022: Buddy_Core
-    400024: Buddy_Eyelid_lower
-    400026: Buddy_Eyelid_upper
-    400028: Buddy_Shell
-    400030: Core
-    400032: Core_CTRL
-    400034: Eyelid_lower
-    400036: Eyelid_lower_CTRL
-    400038: Eyelid_upper
-    400040: Eyelid_upper_CTRL
-    400042: Main
-    400044: Main_CTRL
-    2100000: lambert3
-    2100002: lambert1
-    2100004: lambert2
-    4300000: Buddy_Core
-    4300002: Buddy_Eyelid_upper
-    4300004: Buddy_Eyelid_lower
-    4300006: Buddy_Shell
-    4300008: Buddy_Antenne
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: Buddy_Antenne
-    13700002: Buddy_Core
-    13700004: Buddy_Eyelid_lower
-    13700006: Buddy_Eyelid_upper
-    13700008: Buddy_Shell
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -115,9 +55,9 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
-    previousCalculatedGlobalScale: 0.1
-    hasPreviousCalculatedGlobalScale: 1
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
