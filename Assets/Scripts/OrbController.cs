@@ -23,7 +23,7 @@ public class OrbController : MonoBehaviour
                 ray3 = camera.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray, out hit, orbLayermask))
             {
-                Debug.DrawRay(ray.origin, ray.direction, Color.green);
+                Debug.DrawLine(ray.origin, hit.point, Color.green);
                 Debug.Log("Orb found! " + hit.collider.transform.name);
                 currentObject = hit.collider.transform;
                 currentMoveableObject = currentObject.GetComponent<MoveableObject>();
@@ -31,13 +31,13 @@ public class OrbController : MonoBehaviour
             }
             else if(currentObject != null && Physics.Raycast(ray2, out hit2, groundLayermask))
             {
-                Debug.DrawRay(ray2.origin, ray2.direction, Color.yellow);
+                Debug.DrawLine(ray2.origin, hit2.point, Color.yellow);
                 Debug.Log("Ground hit!");
                 currentObject.transform.position = hit2.point;
             }
             else if(currentObject != null && Physics.Raycast(ray3, out hit3, orbTargetLayermask))
             {
-                Debug.DrawRay(ray3.origin, ray3.direction, Color.red);
+                Debug.DrawLine(ray3.origin, hit3.point, Color.red);
                 Debug.Log("OrbTarget hit!");
                 currentObject.transform.position = hit3.transform.position;
                 currentMoveableObject.SetMoveable(false);
