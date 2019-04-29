@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="BusinessCardMarker" size="5.000000 3.093023" />
+    <ImageTarget name="visitenkarte_mirko" size="0.850000 0.534895" />
+    <ImageTarget name="BusinessCardMarker_decimeter" size="0.850000 0.525439" />
   </Tracking>
 </QCARConfig>

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_New Shader Graph
+  m_Name: Lines_MAT
   m_Shader: {fileID: 4800000, guid: de86dccca9255e340b224fadf86ee31d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

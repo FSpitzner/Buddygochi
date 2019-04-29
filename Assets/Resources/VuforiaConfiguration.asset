@@ -13,17 +13,15 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AeaKqnL/////AAABmUZhFNPZUUGTtGofEzouuhUtFQCL5a7Xff2sg6jk6oOMfcEtdaFuvAXBaRSXQ++R40M2jUd7gRRYblRrIlJJ4qdfiN1/6CU4AVepqFjXrFkfRVg2A352MEZFJuoIqC2vDRcZB2ojCpXhCb+8CS57yHLRZl5dKFtsUhHWgd39+i5a0vs5EHJsfD8+bIJM99QMOIZZ/nbz2OlgxtLoo5vfmoWxgQjI4lDRLdfo8Pxs8zP2ciZL3YL3O10zGOpD9RvcFpiLqqTIL3PdnUgiiVBkbpqC0eydLzWzsWBro/01ODw8FUDXhv93KVJWbwXtuqNc6p/km7PyknYr5YCNsUHuKtor+g7UDlVIWMBle1GO5gtK
+    vuforiaLicenseKey: ATMa9RT/////AAABmS/UgscxzEQFnDPlyXaV7Jclc0rYgxzGtcf2DQkivyzsnVSlPwucO2Iq0HR9tojwQ8okTj9w8vnLYc5xogh+P4Kdz6tV9lzD/2lT+nkgYJp2TemvYvjZ8X1iiAsfaZRNN3WfRcCBox/SaKaCh1WGH43NfmKzBKXIE3vAkg3C8mwYbMpiL7/ApGNoKlqG1neyqVFCrTgIg18RqsrWlBffv4QR5PPVMgAcMekMz+pyfsw14e9WQ+wAJvE0Zp0C8diR6fbIFVNRoxEhGTtgVwOMMzwNc6COmY76tSvugoSd7hAT7PuGjsjzb/IPgsH5BlhNk7WijdYXv5Vw1Spp4n2EMrEiXeqhp/vTULwDo3mh/fxQ
     ufoLicenseKey: QVdUQ1Vnbi8vLy8vQUFBQUtNdEMyb2c0WDBmZ294UDBxNys2eWJncnc5VmhGaS9xenVLU2czcnIwZjgzMkU0TzVCaEhKekVlQTVqTEN2SnV0NG03dTRyQVgyUWd0dkxQNkM0alVTU210dERTb3o1TjB0YXBYdElHdFlyQmlqT204NklLK0E2R0NFY2xmMXVLcUtrZ05EcXJwY1RRRUlXMDJJbnNFdXNIOHNyNnJLOHMrM1ZsU1NRWTlXSTB6Wm54M1hoNjZQWnk3T1pEaUhNRjZnUUVKempNUC82MElhQUR6ZWdMWW1oOEg4cUU5YzRMSzczLzFDUWJTaFBCbEEweFpRSi95ZlkzemFCU1ZCUXRseWlLMU14UHpZWXZzYy94ZkVsdUZiMGE3RHk0S2JxYkp4K0dOaUZOb1RVWXhiWnI4WnEvYUhIVzRidWxjalRmaVFMTVpiNzRWMTQ4ZWpaSllmaWZrZEgvWEIxR0prclFaMUkvNmRPSkpQUkQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    cameraDirection: 0
-    mirrorVideoBackground: 0
-    version: 8.0.10
-    eulaAcceptedVersions: '{"Values":["7.5","8.0"]}'
+    version: 8.1.10
+    eulaAcceptedVersions: '{"Values":["0.0","8.0","7.5","8.1"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -45,6 +43,8 @@ MonoBehaviour:
       DistortionCoefficients: {x: 0, y: 0}
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
+  database:
+    disableModelExtraction: 0
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -55,9 +55,9 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 1
     autoStartTracker: 1
-    trackingMode: 1
-    posePrediction: 0
-    modelCorrectionMode: 0
+    trackingMode: 0
+    posePrediction: 1
+    modelCorrectionMode: 2
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   smartTerrain:
@@ -65,6 +65,5 @@ MonoBehaviour:
     autoStartTracker: 0
   webcam:
     deviceNameSetInEditor: 
-    flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
